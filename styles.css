@@ -1,9 +1,6 @@
-/* .main{
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 32px 15px 32px 15px;
-} */
-
+*{
+    box-sizing: border-box;
+}
 body{
     overflow: scroll;
     overflow-x: hidden;
@@ -88,10 +85,6 @@ nav li{
     display: flex;
     justify-content: center;
 }
-
-*{
-    box-sizing: border-box;
-}
 .item{
     border: 1px solid gray;
     height: 43rem;
@@ -128,13 +121,8 @@ button{
 }
 .article-footer{
     display: flex;
-    /* justify-content:flex-end; */
     justify-content: space-between;
 }
-/* footer .article-footer .sponsered{
-    display: flex;
-    justify-content: space-between;
-} */
 p, label, input, span,time, a{
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -197,12 +185,9 @@ li{
     position: absolute;
     left: 0;
     right: 0;
-    /* bottom: 0; */
     font-family: Arial, Helvetica, sans-serif;
-    /* display: flex; */
     justify-content: space-around;
     height: 54%;
-    /* border-bottom: 1px solid black; */
 }
 .footer-content h2{
     color: black;
